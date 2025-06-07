@@ -114,3 +114,8 @@ main>section {
   grid-template-areas: 'slider icon';
   grid-template-columns: 80% 15%;
 }
+
+
+body.large-text textarea {
+  font-size: 1.5rem;
+}

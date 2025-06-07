@@ -32,6 +32,20 @@
       <button>Press to Talk</button>
     </section>
   </main>
+
+
+  <script>
+    // Randomly enable large text feature
+    const randomNumber = Math.random();
+    const shouldApplyClass = randomNumber < 0.5;
+    let body = document.querySelector('body');
+    if (shouldApplyClass) {
+      body.classList.add('large-text');
+    }
+  </script>
 </body>
+
+
+
 
 </html>
